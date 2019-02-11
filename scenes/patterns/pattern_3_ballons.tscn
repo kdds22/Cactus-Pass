@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://scripts/patterns/pattern_3_ballons.gd" type="Script" id=1]
+[ext_resource path="res://scenes/Ballon_pink.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/Ballon_orange.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/Ballon_Cactus.tscn" type="PackedScene" id=4]
+
+[node name="pattern_3_ballons" type="Node2D"]
+position = Vector2( 11, 1 )
+script = ExtResource( 1 )
+
+[node name="Ballon" parent="." instance=ExtResource( 2 )]
+position = Vector2( 108.437, -70.466 )
+rotation = 0.911404
+
+[node name="Ballon2" parent="." instance=ExtResource( 3 )]
+position = Vector2( -99.2277, -35.7611 )
+rotation = -1.22907
+
+[node name="Ballon_Cactus" parent="." instance=ExtResource( 4 )]
+position = Vector2( 28.8771, 128.62 )
+rotation = 2.97089
+

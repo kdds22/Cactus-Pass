@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://scenes/Ballon.tscn" type="PackedScene" id=1]
-[ext_resource path="res://assets/balão base png.png" type="Texture" id=2]
+[ext_resource path="res://assets/balão base roxo png.png" type="Texture" id=2]
 
 [node name="Ballon" index="0" instance=ExtResource( 1 )]
 

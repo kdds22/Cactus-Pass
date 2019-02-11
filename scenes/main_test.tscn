@@ -1,14 +1,14 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://scenes/Ballon_pink.tscn" type="PackedScene" id=1]
-[ext_resource path="res://scenes/Cactu.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/Cactu.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/patterns/pattern_3_ballons.tscn" type="PackedScene" id=2]
 
 [node name="main_test" type="Node2D"]
 
-[node name="Ballon" parent="." instance=ExtResource( 1 )]
-position = Vector2( 341, 300 )
-scale = Vector2( 1.5, 1.5 )
+[node name="Cactu" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320, 738 )
+scale = Vector2( 0.75, 0.75 )
 
-[node name="Cactu" parent="." instance=ExtResource( 2 )]
-position = Vector2( 330, 508 )
+[node name="pattern_3_ballons" parent="." instance=ExtResource( 2 )]
+position = Vector2( 303, 326 )
 

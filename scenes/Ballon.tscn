@@ -1,0 +1,11 @@
+[gd_scene format=2]
+
+[node name="Ballon" type="KinematicBody2D" groups=[
+"ballon_color",
+]]
+collision_layer = 4
+
+[node name="Sprite" type="Sprite" parent="."]
+
+[node name="Poly" type="CollisionPolygon2D" parent="."]
+
