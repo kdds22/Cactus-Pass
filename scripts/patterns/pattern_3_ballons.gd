@@ -1,18 +1,24 @@
-extends Node2D
+extends KinematicBody2D
 
-func _unhandled_input(event):
-	if event.is_action_pressed("click"):
-		rotate(deg2rad(90))
+const SPEED = 200
+var velocity = Vector2()
 
+#func _unhandled_input(event):
+#	if event.is_action_pressed("click"):
+#		rotate(deg2rad(90))
+
+func _ready():
+	rotation = PI
+	#rotation_degrees = 0
 
 func _process(delta):
-	pass
+	var spin = Input.is_action_pressed("click");
+	if spin:
+		rotation_degrees += SPEED * delta;
+	velocity = Vector2(1, 0).rotated(rotation) * SPEED * delta
+	velocity = move_and_slide(velocity)
 
-#extends KinematicBody2D
-#
-#const SPEED = 200
-#var velocity = Vector2()
-#
+
 #func _ready():
 #rotation = PI
 #rotation_degrees = 0

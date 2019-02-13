@@ -6,9 +6,10 @@
 [node name="main_test" type="Node2D"]
 
 [node name="Cactu" parent="." instance=ExtResource( 1 )]
-position = Vector2( 320, 738 )
-scale = Vector2( 0.75, 0.75 )
+position = Vector2( 160, 421 )
 
 [node name="pattern_3_ballons" parent="." instance=ExtResource( 2 )]
-position = Vector2( 303, 326 )
+position = Vector2( 160, 170 )
+rotation = 3.14159
+scale = Vector2( 0.3, 0.3 )
 
