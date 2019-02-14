@@ -12,6 +12,7 @@ func _process(delta):
 
 func stop():
 	speed = 0
+	$AnimationPlayer.stop()
 
 
 

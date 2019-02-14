@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/balão base roxo png.png-af4862c67fb54208cd6048c3a59a3d2b.stex"
+path="res://.import/orange_1-4.png-ec5e9953d1183efaaca8c66f312544fe.stex"
 
 [deps]
 
-source_file="res://assets/balão base roxo png.png"
-dest_files=[ "res://.import/balão base roxo png.png-af4862c67fb54208cd6048c3a59a3d2b.stex" ]
+source_file="res://assets/orange_1-4.png"
+dest_files=[ "res://.import/orange_1-4.png-ec5e9953d1183efaaca8c66f312544fe.stex" ]
 
 [params]
 

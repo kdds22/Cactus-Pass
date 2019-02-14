@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/balão cacto png.png-e436b2f6267d9f74b167c171c383f441.stex"
+path="res://.import/cactu_1-4.png-d79ceffa27f2b7b2fbb64b8989393a39.stex"
 
 [deps]
 
-source_file="res://assets/balão cacto png.png"
-dest_files=[ "res://.import/balão cacto png.png-e436b2f6267d9f74b167c171c383f441.stex" ]
+source_file="res://assets/cactu_1-4.png"
+dest_files=[ "res://.import/cactu_1-4.png-d79ceffa27f2b7b2fbb64b8989393a39.stex" ]
 
 [params]
 
