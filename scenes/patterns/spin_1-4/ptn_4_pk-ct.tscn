@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scenes/patterns/pattern_spin_base.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/ballons/Ballon_Cactu_1-4.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/ballons/Ballon_Pink_1-4.tscn" type="PackedScene" id=3]
+
+[node name="ptn_4_pk-ct" index="0" instance=ExtResource( 1 )]
+
+[node name="Ballon_Cactu_1-4" parent="." index="2" instance=ExtResource( 2 )]
+position = Vector2( 147, -141 )
+rotation = 0.785398
+scale = Vector2( 0.5, 0.5 )
+
+[node name="Ballon_Cactu_1-5" parent="." index="3" instance=ExtResource( 2 )]
+position = Vector2( -149, 137 )
+rotation = 3.92699
+scale = Vector2( 0.5, 0.5 )
+collision_layer = 4
+
+[node name="Ballon_Pink_1-4" parent="." index="4" instance=ExtResource( 3 )]
+position = Vector2( 140, 143 )
+rotation = 2.35619
+scale = Vector2( 0.5, 0.5 )
+
+[node name="Ballon_Pink_1-5" parent="." index="5" instance=ExtResource( 3 )]
+position = Vector2( -143, -145 )
+rotation = 5.49708
+scale = Vector2( 0.5, 0.5 )
+
