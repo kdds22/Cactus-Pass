@@ -3,10 +3,6 @@ extends KinematicBody2D
 const SPEED = 200
 var velocity = Vector2()
 
-#func _unhandled_input(event):
-#	if event.is_action_pressed("click"):
-#		rotate(deg2rad(90))
-
 func _ready():
 	set_process(false)
 	rotation = PI
@@ -26,3 +22,4 @@ func _on_VisibilityNotifier2D_screen_entered():
 
 func _on_VisibilityNotifier2D_screen_exited():
 	set_process(false)
+	queue_free()
