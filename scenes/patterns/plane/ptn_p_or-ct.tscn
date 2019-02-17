@@ -1,0 +1,72 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scenes/patterns/pattern_plane_base.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/ballons/Ballon_Cactu_1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/ballons/Ballon_Orange_1.tscn" type="PackedScene" id=3]
+
+[node name="ptn_p_or-ct" index="0" instance=ExtResource( 1 )]
+position = Vector2( -180, 0 )
+
+[node name="Ballon_Cactu_1" parent="." index="2" instance=ExtResource( 2 )]
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Cactu_6" parent="." index="3" instance=ExtResource( 2 )]
+position = Vector2( 1200, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Cactu_3" parent="." index="4" instance=ExtResource( 2 )]
+position = Vector2( 600, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Cactu_5" parent="." index="5" instance=ExtResource( 2 )]
+position = Vector2( 1800, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Cactu_2" parent="." index="6" instance=ExtResource( 2 )]
+position = Vector2( 300, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Cactu_7" parent="." index="7" instance=ExtResource( 2 )]
+position = Vector2( 1500, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Cactu_4" parent="." index="8" instance=ExtResource( 2 )]
+position = Vector2( 900, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Cactu_8" parent="." index="9" instance=ExtResource( 2 )]
+position = Vector2( 2100, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Orange_1" parent="." index="10" instance=ExtResource( 3 )]
+position = Vector2( 150, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Orange_6" parent="." index="11" instance=ExtResource( 3 )]
+position = Vector2( 1350, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Orange_4" parent="." index="12" instance=ExtResource( 3 )]
+position = Vector2( 750, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Orange_7" parent="." index="13" instance=ExtResource( 3 )]
+position = Vector2( 1950, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Orange_2" parent="." index="14" instance=ExtResource( 3 )]
+position = Vector2( 450, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Orange_5" parent="." index="15" instance=ExtResource( 3 )]
+position = Vector2( 1650, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Orange_3" parent="." index="16" instance=ExtResource( 3 )]
+position = Vector2( 1050, 0 )
+scale = Vector2( 0.2, 0.2 )
+
+[node name="Ballon_Orange_8" parent="." index="17" instance=ExtResource( 3 )]
+position = Vector2( 2250, 0 )
+scale = Vector2( 0.2, 0.2 )
+

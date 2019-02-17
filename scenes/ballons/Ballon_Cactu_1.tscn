@@ -10,6 +10,8 @@ height = 678.0
 [node name="Ballon_Cactu_1" type="KinematicBody2D" groups=[
 "ballon_cactu",
 ]]
+collision_layer = 2
+collision_mask = 0
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 0, 7 )

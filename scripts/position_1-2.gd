@@ -8,7 +8,8 @@ var pre_t
 
 func _ready():
 	randomize()
-	pre_t = pre_patterns_1_2[randi()%pre_patterns_1_2.size()]
+	var ptt = pre_patterns_1_2
+	pre_t = ptt[randi()%ptt.size()]
 	
 func _process(delta):
 	var pre_pattern = pre_t.instance()
